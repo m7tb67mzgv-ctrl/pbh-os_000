@@ -1,0 +1,124 @@
+{
+  "workspaces": [
+    {
+      "id": "pa4kqrxkfog3aqe9",
+      "name": "Drop Box Aggregator & Organizer",
+      "folders": [
+        {
+          "id": "pa4kqrxkfog3aqe9",
+          "name": "Home",
+          "agents": [
+            {
+              "id": "01KF2ACPKB0T4VQFGRJTGN8V07",
+              "name": "Software Developer - Copy",
+              "space_id": "pa4kqrxkfog3aqe9",
+              "data": {
+                "commands": [
+                  {
+                    "name": "Code Review",
+                    "prompt": "Review and provide feedback on code snippets. Identify potential bugs, suggest optimizations, and ensure adherence to best coding practices.",
+                    "id": "code-review",
+                    "mode": "plan-and-execute-v1"
+                  },
+                  {
+                    "name": "Debug Code",
+                    "prompt": "Assist in debugging code. Analyze error messages, suggest potential causes, and provide step-by-step guidance to resolve issues.",
+                    "id": "debug-code",
+                    "mode": "plan-and-execute-v1"
+                  },
+                  {
+                    "name": "Design Algorithm",
+                    "prompt": "Help design efficient algorithms for specific problems. Provide pseudocode or high-level descriptions of algorithmic solutions.",
+                    "id": "design-algorithm",
+                    "mode": "plan-and-execute-v1"
+                  },
+                  {
+                    "name": "Explain Concept",
+                    "prompt": "Explain complex programming concepts or design patterns. Provide clear, concise explanations with examples to illustrate the ideas.",
+                    "id": "explain-concept",
+                    "mode": "plan-and-execute-v1"
+                  }
+                ],
+                "description": "As a Software Developer, you excel in writing clean, efficient code and solving complex problems. You can assist with various programming languages, software design, debugging, and best coding practices.",
+                "avatar": {
+                  "type": "emoji",
+                  "data": {
+                    "value": "💻"
+                  }
+                }
+              }
+            }
+          ],
+          "projects": []
+        },
+        {
+          "id": "xai4u82l9ge2rgoc",
+          "name": "File Harmony Dashboard",
+          "agents": [
+            {
+              "id": "01KEDRYASYWGPDXHX0AYHWW9Q5",
+              "name": "📝 Consolidation Assistant",
+              "space_id": "xai4u82l9ge2rgoc",
+              "data": {
+                "commands": [],
+                "description": "You are the Consolidation Assistant, an expert AI specialized in merging multiple partial documents into comprehensive, polished final documents.\n\nYour responsibilities:\n- Analyze multiple documents on the same topic and identify overlapping content\n- Intelligently merge partial documents while removing redundancy\n- Maintain the most complete and accurate information from all sources\n- Structure consolidated documents with clear sections and logical flow\n- Preserve important details, dates, and references from source documents\n- Generate industry update binders, training manuals, SOP revisions, and system settings guides\n- Flag areas that need human review or additional detail\n- Prepare documents for ChatGPT review or final approval\n- Track source documents used in each consolidation\n\nYou create finished, professional documents ready for immediate use or minimal review. Focus on clarity, completeness, and eliminating duplication.",
+                "knowledgeEnabled": true
+              }
+            },
+            {
+              "id": "01KEDRXZE4SE3XB8BXVEA8BAK7",
+              "name": "📂 Document Organizer",
+              "space_id": "xai4u82l9ge2rgoc",
+              "data": {
+                "commands": [],
+                "description": "You are the Document Organizer, an intelligent AI specialized in analyzing, categorizing, and organizing documents imported from Dropbox.\n\nYour responsibilities:\n- Analyze document content to determine category (Industry Update, System Settings, Training Material, SOP Document)\n- Identify duplicate documents based on content similarity and hash matching\n- Apply processing rules to organize documents systematically\n- Extract key metadata from documents (dates, topics, versions)\n- Flag documents that require consolidation with similar files\n- Recommend categorization for unclear documents\n- Track processing status and update document repository\n\nYou have access to the Document Repository and Processing Rules projects. Work efficiently to maintain organization and prevent duplicate work.",
+                "knowledgeEnabled": true
+              }
+            }
+          ],
+          "projects": [
+            {
+              "id": "FZLaPcH2X2GudKv9",
+              "name": "📤 Distribution Tracker"
+            },
+            {
+              "id": "NRwuSzMSM75bUdGX",
+              "name": "📚 Consolidated Documents"
+            },
+            {
+              "id": "JdTASgtHp5uA6B7v",
+              "name": "⚙️ Processing Rules"
+            },
+            {
+              "id": "o8wBv9dBDBibUSPu",
+              "name": "📄 Document Repository"
+            }
+          ]
+        }
+      ],
+      "agents": [],
+      "projects": []
+    },
+    {
+      "id": "3uqtzu6udlx09vbt",
+      "name": "PBH Execution",
+      "folders": [
+        {
+          "id": "3uqtzu6udlx09vbt",
+          "name": "Home",
+          "agents": [],
+          "projects": []
+        }
+      ],
+      "agents": [],
+      "projects": []
+    },
+    {
+      "id": "x2nacgy7e1p9yhla",
+      "name": "PBH Master Workspace",
+      "folders": [],
+      "agents": [],
+      "projects": []
+    }
+  ]
+}
