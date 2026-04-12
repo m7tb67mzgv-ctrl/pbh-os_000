@@ -1,0 +1,10 @@
+{
+  "space": {
+    "message": "Route GET:/api/v1/spaces/698z86tdc3y6n4pe not found",
+    "error": "Not Found",
+    "statusCode": 404
+  },
+  "folders": [],
+  "agents": [],
+  "projects": []
+}
